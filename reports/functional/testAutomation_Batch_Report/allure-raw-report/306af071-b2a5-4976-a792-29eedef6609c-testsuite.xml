@@ -1,0 +1,102 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1550261139988' stop='1550261180842'>
+    <name>A registered user can Login to Dashboard and can see the account information</name>
+    <title>A registered user can Login to Dashboard and can see the account information</title>
+    <test-cases>
+        <test-case start='1550261139989' status='broken' stop='1550261180841'>
+            <name>User can check account &amp; meter information</name>
+            <title>User can check account &amp; meter information</title>
+            <labels>
+                <label name='feature' value='A registered user can Login to Dashboard and can see the account information'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1550261155447' status='pending' stop='1550261157962'>
+                    <name>user navigates to Dashboard page</name>
+                    <title>user navigates to Dashboard page</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='97b6c4fa-2cf3-445c-9e57-62bb4c0d1085-attachment.png' type='image/png' size='208374'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1550261157962' status='pending' stop='1550261160471'>
+                    <name>user clicks on plus button to expand the account information</name>
+                    <title>user clicks on plus button to expand the account information</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='3e7aa466-5ac8-4124-b8e6-99abcc61efa7-attachment.png' type='image/png' size='208374'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1550261160471' status='pending' stop='1550261162977'>
+                    <name>user clicks on account number &amp; verifies it</name>
+                    <title>user clicks on account number &amp; verifies it</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='ce12f0da-91eb-42e3-b03f-1ebcf4c6ffb8-attachment.png' type='image/png' size='208374'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1550261162977' status='pending' stop='1550261165543'>
+                    <name>user clicks on Meters service type &amp; verifies the same</name>
+                    <title>user clicks on Meters service type &amp; verifies the same</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='7e4450f3-b438-4097-a940-f1be360247bb-attachment.png' type='image/png' size='209892'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1550261165543' status='pending' stop='1550261168085'>
+                    <name>user clicks on meter serial number &amp; verifies the same</name>
+                    <title>user clicks on meter serial number &amp; verifies the same</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='96aaefbf-439d-4930-b229-0bd09b042c13-attachment.png' type='image/png' size='209892'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1550261168085' status='pending' stop='1550261170668'>
+                    <name>user clicks on meter size &amp; verifes it</name>
+                    <title>user clicks on meter size &amp; verifes it</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='3d9fdc68-7c34-4e16-9d74-18c0ed5fd633-attachment.png' type='image/png' size='209892'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1550261170668' status='pending' stop='1550261173163'>
+                    <name>user clicks on meter location &amp; verifes it</name>
+                    <title>user clicks on meter location &amp; verifes it</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='a26702b0-e9c3-4cef-afb0-8146861bed8d-attachment.png' type='image/png' size='209892'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1550261173163' status='pending' stop='1550261175718'>
+                    <name>user clicks on installation date &amp; verifes it</name>
+                    <title>user clicks on installation date &amp; verifes it</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='cad54f01-ef27-4f0c-91e5-8b8015aa10e6-attachment.png' type='image/png' size='209892'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1550261175718' status='pending' stop='1550261178182'>
+                    <name>user is displayed with all the account information</name>
+                    <title>user is displayed with all the account information</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='4d73d066-5486-42c6-aee7-a7e7542a16ba-attachment.png' type='image/png' size='209892'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='c343811a-9025-4266-ba87-7ccca45373b4-attachment.png' type='image/png' size='208374'/>
+                <attachment title='Screenshot' source='875ac8da-cd35-42d1-8f41-556918ee5cec-attachment.png' type='image/png' size='209892'/>
+            </attachments>
+            <failure>
+                <message>unknown error: Cannot read property 'scrollTo' of null</message>
+                <stack-trace>Error: An unknown server-side error occurred while processing the command.
+                    at execute(&lt;Function>) -     at D:\Pranit\17Feb19\gitJenkinsAllureCucumber16Feb19\node_modules\wdio-sync\build\index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
