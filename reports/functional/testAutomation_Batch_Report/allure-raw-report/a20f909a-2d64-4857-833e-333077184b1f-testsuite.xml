@@ -1,0 +1,46 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1550262639284' stop='1550262660378'>
+    <name>A registered user can Login gmail and can access his account</name>
+    <title>A registered user can Login gmail and can access his account</title>
+    <test-cases>
+        <test-case start='1550262639285' status='broken' stop='1550262660378'>
+            <name>To verify if user can login to gmail</name>
+            <title>To verify if user can login to gmail</title>
+            <labels>
+                <label name='feature' value='A registered user can Login gmail and can access his account'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1550262652882' status='pending' stop='1550262655400'>
+                    <name>user navigates to gmail login page</name>
+                    <title>user navigates to gmail login page</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='57673155-4073-4b0e-a4ef-67554dbdbb3b-attachment.png' type='image/png' size='208374'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1550262655400' status='broken' stop='1550262657895'>
+                    <name>2 user navigates to gmail login page</name>
+                    <title>2 user navigates to gmail login page</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='7e832120-b8cc-454f-a35b-852ca4a5f6b8-attachment.png' type='image/png' size='208374'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='8f12bb1f-0ece-4be1-840d-664687beb2a8-attachment.png' type='image/png' size='208374'/>
+                <attachment title='Screenshot' source='12c0942f-34d7-46e8-bbdd-232c67f9db88-attachment.png' type='image/png' size='208374'/>
+            </attachments>
+            <failure>
+                <message>unknown error: Cannot read property 'scrollTo' of null</message>
+                <stack-trace>Error: An unknown server-side error occurred while processing the command.
+                    at execute(&lt;Function>) -     at D:\Pranit\17Feb19\gitJenkinsAllureCucumber16Feb19\node_modules\wdio-sync\build\index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

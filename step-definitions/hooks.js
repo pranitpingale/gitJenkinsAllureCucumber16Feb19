@@ -5,17 +5,17 @@ var file = json.read('./utilities/testData.json');
 
 Before(function () {
     
-    commonLib.loadPage('./')
-    loginLib.loginToAmwater(global.loginId, global.password)
+    // commonLib.loadPage('./')
+    // loginLib.loginToAmwater(global.loginId, global.password)
 
 });
 
 After(function() {
 
-    //logout from application
-    if (!dashboardPage.modalWindowCloseButton.isExisting()) {
-        dashboardLib.logoutAmwater()
-    }
+    // //logout from application
+    // if (!dashboardPage.modalWindowCloseButton.isExisting()) {
+    //     dashboardLib.logoutAmwater()
+    // }
 
 })
 

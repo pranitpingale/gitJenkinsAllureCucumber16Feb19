@@ -1,0 +1,21 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "A registered user can Login to Dashboard and can see the account information",
+    "children" : [ {
+      "name" : "User can check account & meter information",
+      "uid" : "a2ead0ba0706cdee",
+      "parentUid" : "4d29ac3b05a64b849e5cc84c7025cfd9",
+      "status" : "broken",
+      "time" : {
+        "start" : 1550261139989,
+        "stop" : 1550261180841,
+        "duration" : 40852
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "4d29ac3b05a64b849e5cc84c7025cfd9"
+  } ]
+}

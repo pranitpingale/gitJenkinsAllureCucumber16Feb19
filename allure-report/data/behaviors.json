@@ -1,0 +1,21 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "A registered user can Login to Dashboard and can see the account information",
+    "children" : [ {
+      "name" : "User can check account & meter information",
+      "uid" : "a2ead0ba0706cdee",
+      "parentUid" : "96c0a503747aeb5620a7184841588ccc",
+      "status" : "broken",
+      "time" : {
+        "start" : 1550261139989,
+        "stop" : 1550261180841,
+        "duration" : 40852
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "96c0a503747aeb5620a7184841588ccc"
+  } ]
+}

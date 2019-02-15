@@ -1,0 +1,11 @@
+[ {
+  "uid" : "a2ead0ba0706cdee",
+  "name" : "User can check account & meter information",
+  "time" : {
+    "start" : 1550261139989,
+    "stop" : 1550261180841,
+    "duration" : 40852
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
