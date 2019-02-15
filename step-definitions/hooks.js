@@ -5,7 +5,7 @@ var file = json.read('./utilities/testData.json');
 
 Before(function () {
     
-    // commonLib.loadPage('./')
+     commonLib.loadPage('./')
     // loginLib.loginToAmwater(global.loginId, global.password)
 
 });

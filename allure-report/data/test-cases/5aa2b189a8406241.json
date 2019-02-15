@@ -1,0 +1,130 @@
+{
+  "uid" : "5aa2b189a8406241",
+  "name" : "To verify if user can login to gmail",
+  "fullName" : "A registered user can Login gmail and can access his account.To verify if user can login to gmail",
+  "historyId" : "a95e8f3f4f1d247a95eb048e0c51d0a5",
+  "time" : {
+    "start" : 1550263465460,
+    "stop" : 1550263484995,
+    "duration" : 19535
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Step \"2 user navigates to gmail login page\" is not defined. You can ignore this error by setting\n                                              cucumberOpts.ignoreUndefinedDefinitions as true.",
+  "statusTrace" : "D:\\Pranit\\17Feb19\\gitJenkinsAllureCucumber16Feb19\\features\\wdioUniversity\\wdioLogin.feature:6",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Step \"2 user navigates to gmail login page\" is not defined. You can ignore this error by setting\n                                              cucumberOpts.ignoreUndefinedDefinitions as true.",
+    "statusTrace" : "D:\\Pranit\\17Feb19\\gitJenkinsAllureCucumber16Feb19\\features\\wdioUniversity\\wdioLogin.feature:6",
+    "steps" : [ {
+      "name" : "user navigates to gmail login page",
+      "time" : {
+        "start" : 1550263469311,
+        "stop" : 1550263479987,
+        "duration" : 10676
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "786da11b4da05c77",
+        "name" : "Screenshot",
+        "source" : "786da11b4da05c77.png",
+        "type" : "image/png",
+        "size" : 156282
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "2 user navigates to gmail login page",
+      "time" : {
+        "start" : 1550263479987,
+        "stop" : 1550263482473,
+        "duration" : 2486
+      },
+      "status" : "broken",
+      "statusMessage" : "D:\\Pranit\\17Feb19\\gitJenkinsAllureCucumber16Feb19\\features\\wdioUniversity\\wdioLogin.feature:6",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b85cb5c6702b6220",
+        "name" : "Screenshot",
+        "source" : "b85cb5c6702b6220.png",
+        "type" : "image/png",
+        "size" : 156282
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "ae8c0287608e5850",
+      "name" : "Screenshot",
+      "source" : "ae8c0287608e5850.png",
+      "type" : "image/png",
+      "size" : 208570
+    }, {
+      "uid" : "80dbe32e67da45c8",
+      "name" : "Screenshot",
+      "source" : "80dbe32e67da45c8.png",
+      "type" : "image/png",
+      "size" : 156282
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "A registered user can Login gmail and can access his account"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "A registered user can Login gmail and can access his account"
+  }, {
+    "name" : "testClass",
+    "value" : "A registered user can Login gmail and can access his account"
+  }, {
+    "name" : "testMethod",
+    "value" : "To verify if user can login to gmail"
+  }, {
+    "name" : "package",
+    "value" : "A registered user can Login gmail and can access his account"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5aa2b189a8406241.json",
+  "parameterValues" : [ "chrome" ]
+}

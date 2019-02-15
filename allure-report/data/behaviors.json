@@ -2,20 +2,20 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "A registered user can Login to Dashboard and can see the account information",
+    "name" : "A registered user can Login gmail and can access his account",
     "children" : [ {
-      "name" : "User can check account & meter information",
-      "uid" : "a2ead0ba0706cdee",
-      "parentUid" : "96c0a503747aeb5620a7184841588ccc",
+      "name" : "To verify if user can login to gmail",
+      "uid" : "5aa2b189a8406241",
+      "parentUid" : "4af3b2e448fafe8f55b99d0a7cac6786",
       "status" : "broken",
       "time" : {
-        "start" : 1550261139989,
-        "stop" : 1550261180841,
-        "duration" : 40852
+        "start" : 1550263465460,
+        "stop" : 1550263484995,
+        "duration" : 19535
       },
       "flaky" : false,
       "parameters" : [ "chrome" ]
     } ],
-    "uid" : "96c0a503747aeb5620a7184841588ccc"
+    "uid" : "4af3b2e448fafe8f55b99d0a7cac6786"
   } ]
 }

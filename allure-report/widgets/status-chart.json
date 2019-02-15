@@ -1,10 +1,10 @@
 [ {
-  "uid" : "a2ead0ba0706cdee",
-  "name" : "User can check account & meter information",
+  "uid" : "5aa2b189a8406241",
+  "name" : "To verify if user can login to gmail",
   "time" : {
-    "start" : 1550261139989,
-    "stop" : 1550261180841,
-    "duration" : 40852
+    "start" : 1550263465460,
+    "stop" : 1550263484995,
+    "duration" : 19535
   },
   "status" : "broken",
   "severity" : "normal"

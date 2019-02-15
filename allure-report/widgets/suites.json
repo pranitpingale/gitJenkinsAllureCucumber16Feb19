@@ -1,8 +1,8 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "4d29ac3b05a64b849e5cc84c7025cfd9",
-    "name" : "A registered user can Login to Dashboard and can see the account information",
+    "uid" : "56f63e054b8e6a5733bb1f600684adf3",
+    "name" : "A registered user can Login gmail and can access his account",
     "statistic" : {
       "failed" : 0,
       "broken" : 1,

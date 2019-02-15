@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1550262639284' stop='1550262660378'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1550263465460' stop='1550263484995'>
     <name>A registered user can Login gmail and can access his account</name>
     <title>A registered user can Login gmail and can access his account</title>
     <test-cases>
-        <test-case start='1550262639285' status='broken' stop='1550262660378'>
+        <test-case start='1550263465460' status='broken' stop='1550263484995'>
             <name>To verify if user can login to gmail</name>
             <title>To verify if user can login to gmail</title>
             <labels>
@@ -15,31 +15,31 @@
                 <parameter kind='argument' name='browser' value='chrome'/>
             </parameters>
             <steps>
-                <step start='1550262652882' status='pending' stop='1550262655400'>
+                <step start='1550263469311' status='passed' stop='1550263479987'>
                     <name>user navigates to gmail login page</name>
                     <title>user navigates to gmail login page</title>
                     <attachments>
-                        <attachment title='Screenshot' source='57673155-4073-4b0e-a4ef-67554dbdbb3b-attachment.png' type='image/png' size='208374'/>
+                        <attachment title='Screenshot' source='d1b73b0e-c839-42c2-af86-112cd82c2b00-attachment.png' type='image/png' size='156282'/>
                     </attachments>
                     <steps/>
                 </step>
-                <step start='1550262655400' status='broken' stop='1550262657895'>
+                <step start='1550263479987' status='broken' stop='1550263482473'>
                     <name>2 user navigates to gmail login page</name>
                     <title>2 user navigates to gmail login page</title>
                     <attachments>
-                        <attachment title='Screenshot' source='7e832120-b8cc-454f-a35b-852ca4a5f6b8-attachment.png' type='image/png' size='208374'/>
+                        <attachment title='Screenshot' source='ffc0f696-bea3-4086-b6d3-8ccb67ae89f1-attachment.png' type='image/png' size='156282'/>
                     </attachments>
                     <steps/>
                 </step>
             </steps>
             <attachments>
-                <attachment title='Screenshot' source='8f12bb1f-0ece-4be1-840d-664687beb2a8-attachment.png' type='image/png' size='208374'/>
-                <attachment title='Screenshot' source='12c0942f-34d7-46e8-bbdd-232c67f9db88-attachment.png' type='image/png' size='208374'/>
+                <attachment title='Screenshot' source='e61af037-0210-4c24-854b-694ae35f4678-attachment.png' type='image/png' size='208570'/>
+                <attachment title='Screenshot' source='f90e323e-2167-43c2-abec-4ba1e44b79d3-attachment.png' type='image/png' size='156282'/>
             </attachments>
             <failure>
-                <message>unknown error: Cannot read property 'scrollTo' of null</message>
-                <stack-trace>Error: An unknown server-side error occurred while processing the command.
-                    at execute(&lt;Function>) -     at D:\Pranit\17Feb19\gitJenkinsAllureCucumber16Feb19\node_modules\wdio-sync\build\index.js:316:3</stack-trace>
+                <message>Step "2 user navigates to gmail login page" is not defined. You can ignore this error by setting
+                                              cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>D:\Pranit\17Feb19\gitJenkinsAllureCucumber16Feb19\features\wdioUniversity\wdioLogin.feature:6</stack-trace>
             </failure>
         </test-case>
     </test-cases>

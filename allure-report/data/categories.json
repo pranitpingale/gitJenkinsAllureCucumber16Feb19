@@ -4,21 +4,21 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "unknown error: Cannot read property 'scrollTo' of null",
+      "name" : "Step \"2 user navigates to gmail login page\" is not defined. You can ignore this error by setting\n                                              cucumberOpts.ignoreUndefinedDefinitions as true.",
       "children" : [ {
-        "name" : "User can check account & meter information",
-        "uid" : "a2ead0ba0706cdee",
-        "parentUid" : "4a5067bfdd50269be06f10e269150089",
+        "name" : "To verify if user can login to gmail",
+        "uid" : "5aa2b189a8406241",
+        "parentUid" : "6d51f7c8413f2e5bb46f4ac660aa0682",
         "status" : "broken",
         "time" : {
-          "start" : 1550261139989,
-          "stop" : 1550261180841,
-          "duration" : 40852
+          "start" : 1550263465460,
+          "stop" : 1550263484995,
+          "duration" : 19535
         },
         "flaky" : false,
         "parameters" : [ "chrome" ]
       } ],
-      "uid" : "4a5067bfdd50269be06f10e269150089"
+      "uid" : "6d51f7c8413f2e5bb46f4ac660aa0682"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
